@@ -63,7 +63,7 @@ const Studentlist = () => {
 
 
 axios.put(`https://dark-gray-agouti-kit.cyclic.app/api/course/${selectedCourse._id}`,{
-  qrCodeId:`${_date}`
+  qrCodeId:`qr-${_date}`
 }).then((resp)=>{
   console.log(resp.data);
 }).catch((err)=>console.log(err))
