@@ -1,0 +1,34 @@
+/* .card_mian_wrapper{
+    padding:10px;
+    border:1px solid #7777;
+    position: relative;
+    top: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+} */
+.image_wrapper {
+    border-radius: 50%;
+    /* position: absolute;
+    top: -80px;
+    left: 165px; */
+}
+.image_wrapper img{
+    width: 160px;
+}
+.text_era h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+
+}
+@media screen and (max-width: 1200px) {
+    .text_era h4{
+   
+        font-size: 30px;
+ 
+    
+    }
+}

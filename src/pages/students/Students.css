@@ -1,0 +1,58 @@
+.student_records .profile_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.student_records .username {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+
+.student_records .location,
+.student_records .phone {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: darkgray;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.student_records .userButton {
+    border: none;
+    padding: 5px 30px;
+    text-decoration: none !important;
+    background: #3B9AE1;
+    color: white;
+    border-radius: 10px;
+}
+
+.student_records .userButton:hover {
+    background: black;
+    color: #fff;
+}
+
+.student_records td {
+    padding-left: 0px !important;
+}
+
+.user_record_setting {
+    padding: 15px 0px !important;
+}
+
+.select_option {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px !important;
+    width: 50% !important;
+    margin: auto;
+    font-size: 14px !important;
+
+}
+.student_records table th{
+    padding-left: 0px !important;
+}

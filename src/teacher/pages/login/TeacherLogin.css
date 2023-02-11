@@ -1,0 +1,69 @@
+.login_section {
+    background: #000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.login {
+    padding: 200px 0px;
+
+}
+
+.inputss {
+    margin: 20px 0px;
+    border-radius: 20px !important;
+}
+
+.login_button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F1977D;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.forget_password a {
+    font-family: 'Poppins', sans-serif;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: darkgrey;
+}
+
+.forget_password {
+    margin: 15px 0px;
+}
+.login_section h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+@media only screen and (max-width: 1400px) {
+    .login {
+        padding: 60px 0px;
+    } 
+    .login_section{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .login {
+        padding: 50px 0px;
+    } 
+    .login_section{ 
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .login {
+        padding: 50px 0px;
+    }  
+}

@@ -1,0 +1,6 @@
+.teacher-section table tbody tr td{
+padding-left: 0px !important;
+}
+.teacher-section table i{
+    cursor: pointer;
+}

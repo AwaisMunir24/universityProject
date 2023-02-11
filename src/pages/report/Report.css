@@ -1,0 +1,11 @@
+.report_section table tr td{
+    padding-left: 0px !important;
+}
+.report_section i{
+    color: #3B9AE1;
+    font-size: 18px;
+    cursor: pointer;
+}
+.report_section table th{
+padding-left: 0px !important;    
+}
